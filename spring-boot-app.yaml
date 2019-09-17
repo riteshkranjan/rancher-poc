@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: BeerApplication
-        image: gcr.io/rancherdemo/BeerApplication
+        image: riteshkranjan/BeerApplication
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

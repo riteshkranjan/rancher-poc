@@ -9,10 +9,10 @@
 1. make sure docker cli is installed   
 2. run `mvn install dockerfile:build -DskipTests`     
 OR   
-2. docker build -t riteshkranjan/BeerApplication .         
+2. docker build -t riteshkranjan/beerapplication .         
 3. run `docker images` and note down image id    
-4. tag image id `docker tag <imageId> riteshkranjan/BeerApplication`       
-5. finally push this image `docker push riteshkranjan/BeerApplication`     
+4. tag image id `docker tag <imageId> riteshkranjan/beerapplication`       
+5. finally push this image `docker push riteshkranjan/beerapplication`     
 
 # Gcloud setup 
 after installaiton of google cloud sdk run below commands

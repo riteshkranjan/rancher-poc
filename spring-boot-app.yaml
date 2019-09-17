@@ -5,16 +5,16 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: BeerApplication
+      app: beerapplication
   replicas: 1 # tells deployment to run 3 pods matching the template
   template: # create pods using pod definition in this template
     metadata:
       labels:
-        app: BeerApplication
+        app: beerapplication
     spec:
       containers:
-      - name: BeerApplication
-        image: riteshkranjan/BeerApplication
+      - name: beerapplication
+        image: riteshkranjan/beerapplication
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
